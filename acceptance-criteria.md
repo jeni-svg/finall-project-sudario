@@ -19,18 +19,20 @@ Example:
 AC - Acceptance Criteria
 -->
 
-### Feature: 
+### Feature: Note
 US1:
-- AC1.1: 
-- AC1.2: 
+- AC1.1:  Given I am on the Notes page, when I enter text in the note area and click "Save", then I see my note in the "My Notes" list, and it remains visible even after reloading the page.
+- AC1.2: Given I have a saved note, when I click "Edit" and save my changes or click "Delete", then the note is updated or removed from the "My Notes" list.
+- AC1.3: Given the note area is empty, when I click "Save", then I see a message telling me to enter text before saving.
 
-### Feature: 
+### Feature: Question Management
 US2:
-- AC2.1: 
-- AC2.2: 
+- AC2.1: Given I am on the Create Question page, when I select "Multiple Choice" or "Identification", enter the question and correct answer, and click "Save", then I see the saved question with its details under "My Questions".
+- AC2.2: Given I have saved questions under "My Questions", when I click "Edit" and save my changes or click "Delete", then the question is updated or removed from the list.
+- AC1.3: Given I have not entered the required question or correct answer, when I click "Save", then I see a message asking me to complete the required fields, and the question is not saved.
 
-### Feature: 
+### Feature: Interactive Quiz Practice
 US3:
-- AC3.1: 
-- AC3.2: 
-
+- AC3.1: Given I have saved custom questions, when I click "Start Quiz", then I see one question at a time in randomized order with the appropriate answer controls and a "Next Question" button.
+- AC3.2: Given I am answering quiz questions, when I select an answer and click "Next Question", then I proceed to the next question until all questions have been answered.
+- AC1.3: Given I have completed the final question, when I finish the quiz, then I see the Quiz Result screen displaying my score, number of correct and wrong answers, and a review showing my selected answers alongside the correct answers.
