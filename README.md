@@ -2,10 +2,10 @@
 
 A web-based personal study and quiz app where students write notes, create custom review questions, and take practice quizzes.
 
-## Problem
+## Problems
 - Students keep study notes and practice questions in separate places, making self-review and organization harder.
 - Ready-made study apps make it hard to focus on the exact concepts and key details a student considers most important.
-## Target Users
+## Target User
 Students who want a personal space to organize notes, create review questions, and practice with quizzes.
 
 ## Solution
