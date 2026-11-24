@@ -17,8 +17,9 @@ US1: As a customer, I want to see today's menu with prices so that I can decide 
 US - User Story
 -->
 
-### Feature: 
-US1:
+### Feature: Note
+
+US1: As a student, I want to write and save important notes, thoughts, ideas, and reminders in a free space, so that I can keep all my key study information in one place.
 
 US2:
 
